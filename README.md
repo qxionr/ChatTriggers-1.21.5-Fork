@@ -5,14 +5,8 @@
     </a>
   </p>
   <p>
-    <a href="https://discord.gg/chattriggers">
+    <a href="https://discord.gg/scatha">
       <img src="https://discordapp.com/api/guilds/119493402902528000/embed.png" alt="Discord" />
-    </a>
-    <a href="https://github.com/ChatTriggers/ctjs/releases">
-      <img src="https://img.shields.io/github/v/release/ChatTriggers/ctjs.svg?include_prereleases" alt="Releases" />
-    </a>
-    <a href="https://github.com/ChatTriggers/ctjs/actions/workflows/build.yml">
-      <img src="https://github.com/ChatTriggers/ctjs/actions/workflows/build.yml/badge.svg" alt="Build Status" />
     </a>
   </p>
 </div>
