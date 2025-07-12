@@ -17,11 +17,12 @@
   </p>
 </div>
 
-ChatTriggers (CT) is a framework for Minecraft that enables live scripting and client modification using JavaScript. We provide libraries, wrappers, objects, and more to make your life as a modder as easy as possible. Even if we don't support something you need, you can still access any Java classes and native fields/methods.
+### How To Download (build yourself)
+1. Install JVM 21 and make sure the project is running it
+2. Do .\gradlew.bat clean
+3. Do .\gradlew.bat build
+4. Look in folder and is there
 
-With CT, you have all the power of a modding environment with the benefit of an easy-to-use language and the ability to reload your scripts without restarting the game. CT also provides a way to [define your own Mixins](https://github.com/ChatTriggers/ctjs/wiki/Dynamic-Mixins)!
-
-CT is currently written for Fabric 1.19. See [this repo](https://github.com/ChatTriggers/ChatTriggers) for the deprecated Forge 1.8.9 version.
 
 ### Examples
 
