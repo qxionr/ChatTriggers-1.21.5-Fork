@@ -1,0 +1,41 @@
+{
+    "schemaVersion": 1,
+    "id": "ctjs",
+    "name": "ChatTriggers",
+    "version": "$version",
+    "description": "A framework for Minecraft that allows for live scripting and client modification using JavaScript",
+    "authors": ["Ecolsson", "FalseHonesty", "kerbybit"],
+    "contributors": ["Squagward", "Debuggings", "DJtheRedstoner"],
+    "icon": "assets/ctjs/logo.png",
+    "license": ["MIT"],
+    "contact": {
+        "homepage": "https://chattriggers.com",
+        "sources": "https://github.com/ChatTriggers/ChatTriggers",
+        "issues": "https://github.com/ChatTriggers/ChatTriggers/issues"
+    },
+    "environment": "client",
+    "entrypoints": {
+        "preLaunch": [
+            "com.chattriggers.ctjs.internal.launch.CTJSPreLaunch"
+        ],
+        "client": ["com.chattriggers.ctjs.CTJS"],
+        "modmenu": [
+            "com.chattriggers.ctjs.internal.compat.ModMenuEntry"
+        ]
+    },
+    "mixins": ["ctjs.mixins.json"],
+    "depends": {
+        "fabricloader": ">=$loader_version",
+        "fabric-api": ">=$fabric_api_version",
+        "fabric-language-kotlin": ">=$fabric_kotlin_version"
+    },
+    "custom": {
+        "ctjs:yarn-mappings": "$yarn_mappings",
+        "modmenu": {
+            "links": {
+                "modmenu.discord": "https://discord.gg/chattriggers"
+            }
+        }
+    },
+    "accessWidener": "ctjs.accesswidener"
+}
